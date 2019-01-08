@@ -4,8 +4,8 @@ object TypeDemo02 {
 
   def main(args: Array[String]): Unit = {
     var num = 1.2
-    var num2 = 1.4f
-    num2 = num.toFloat
+    var num3 = num.toInt
+    println(num3)
   }
 
   def sayHello: Nothing = {
