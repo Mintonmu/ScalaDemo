@@ -1,4 +1,4 @@
-package com.muming.chapter04
+package com.muming.chapter04.Func
 
 object Fun {
 
