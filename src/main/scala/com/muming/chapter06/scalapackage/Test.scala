@@ -1,6 +1,5 @@
 package com.muming.chapter06.scalapackage
 
-
 object Test {
 
   def main(args: Array[String]): Unit = {
