@@ -6,8 +6,8 @@ package com.muming {
   // 每一个包都可以有一个包对象，有且只能有一个，
   // 包对象名称要和包的名称保持一致
   // 包对象中可以定义变量和方法
-  package object scala {
 
+  package object scala {
     val name = "king"
 
     def sayHi() = {
@@ -27,15 +27,21 @@ package com.muming {
       val name = "Nick"
 
       def play(message: String) = {
-        println(this.name + " " + message)
+        //println(this.name + " " + message)
       }
     }
 
     object Tests {
       def main(args: Array[String]): Unit = {
-        println("name:" + name)
-        println(sayHi)
-        println("ok")
+
+
+        val a: Double = 0.5
+        val c: BigDecimal = 0.0005
+
+        println(c + "\n" + a)
+        //        println("name:" + name)
+        //        println(sayHi())
+        //        println("ok")
       }
     }
 
