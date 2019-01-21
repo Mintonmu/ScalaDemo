@@ -1,12 +1,18 @@
 package com.muming.chapter08.abstactdemo
 
-object BankDemo {
+//object BankDemo {
+//
+//  def main(args: Array[String]): Unit = {
+//
+//  }
+//
+//}
 
-  def main(args: Array[String]): Unit = {
-
-  }
+object BankDemo extends App {
+  //当一类继承APP就不需要写main入口，底层使用反射APP是一个特征（trait），里面有main方法
 
 }
+
 
 class Account(inAccount: String = _, inBalance: Double = _, inPwd: String = _) {
   private val accountNo = inAccount
