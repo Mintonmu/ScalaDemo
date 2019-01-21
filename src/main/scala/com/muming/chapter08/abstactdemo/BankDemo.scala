@@ -9,12 +9,12 @@ package com.muming.chapter08.abstactdemo
 //}
 
 object BankDemo extends App {
-  //当一类继承APP就不需要写main入口，底层使用反射APP是一个特征（trait），里面有main方法
+  //当一类继承APP就不需要写main入口，底层使用反射,APP是一个特征（trait），里面有main方法
 
 }
 
 
-class Account(inAccount: String = _, inBalance: Double = _, inPwd: String = _) {
+class Account(inAccount: String, inBalance: Double, inPwd: String) {
   private val accountNo = inAccount
   private val pwd = inPwd
   private var balance = inBalance
