@@ -14,9 +14,7 @@ object StreamAndViewDemo extends App {
 	viewSquares2.foreach(println)
 
 	//lazy末尾元素
-	def numsForm(n: BigInt): Stream[BigInt] = {
-		n #:: numsForm(n + 1)
-	}
+	def numsForm(n: BigInt): Stream[BigInt] = n #:: numsForm(n + 1)
 
 	def multiple(num: Int) = num
 
